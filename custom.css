@@ -1,0 +1,48 @@
+p {
+    font-weight: 400;
+}
+.orange{
+    color: RGB(212,	36,	0);	
+}
+.navbar {
+    position: absolute;
+    z-index: 10000;
+    background-color: transparent;
+    border: none;
+    right: 0;
+    panding: 1em;
+}
+.navbar-default .navbar-nav>li>a {
+    color: RGB(146,	166, 166);
+    border-bottom: solid 2px RGB(212,	36,	0);
+    padding-right: 5px;
+    padding-bottom: 4px;
+}
+#tagline {
+    position:absolute;
+    width: 100vw;
+    padding: 5em;
+    z-index: 100;
+}
+.grey {
+    color: RGB(146,	166, 166);
+}
+
+#bg-image {
+    margin: 15px 0; 
+    background-image: url(img/sky.jpg);
+    height:100vh;
+    background-size:cover;
+}
+#work #myCarousel {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#work #myCarousel img {
+    width: 100vw;
+}
+
+#bg-text {
+    background-color: rgba(134,	141, 117, 0.3); 
+}

@@ -1,48 +1,108 @@
-p {
-    font-weight: 400;
-}
-.orange{
-    color: RGB(212,	36,	0);	
-}
-.navbar {
-    position: absolute;
-    z-index: 10000;
-    background-color: transparent;
-    border: none;
-    right: 0;
-    panding: 1em;
-}
-.navbar-default .navbar-nav>li>a {
-    color: RGB(146,	166, 166);
-    border-bottom: solid 2px RGB(212,	36,	0);
-    padding-right: 5px;
-    padding-bottom: 4px;
-}
-#tagline {
-    position:absolute;
-    width: 100vw;
-    padding: 5em;
-    z-index: 100;
-}
-.grey {
-    color: RGB(146,	166, 166);
-}
+ p {
+     font-weight: 400;
+ }
+ 
+ .orange {
+     color: RGB(212, 36, 0);
+ }
+ 
+ .navbar {
+     position: absolute;
+     z-index: 10000;
+     background-color: transparent;
+     border: none;
+     right: 0;
+     panding: 1em;
+ }
+ 
+ .navbar-default .navbar-nav>li>a {
+     color: RGB(146, 166, 166);
+     border-bottom: solid 2px RGB(212, 36, 0);
+     padding-right: 5px;
+     padding-bottom: 4px;
+ }
+ 
+ #tagline {
+     position: absolute;
+     width: 100vw;
+     padding: 5em;
+     z-index: 100;
+ }
+ 
+ .grey {
+     color: RGB(146, 166, 166);
+ }
+ /*********landing page******/
+ 
+ #bg-image {
+     margin: 15px 0;
+     background-image: url(img/sky.jpg);
+     height: 100vh;
+     background-size: cover;
+ }
+ 
+ #bg-text {
+     margin-top: 1em;
+     padding: 4em;
+ }
+ /********work page******/
+ 
+ #work .hide-tittle>h5{ 
+     opacity: 0;
+     position: absolute;
+     top: 45%;
+     left: 40%;
+     color: black;
+     
+ }
 
-#bg-image {
-    margin: 15px 0; 
-    background-image: url(img/sky.jpg);
-    height:100vh;
-    background-size:cover;
-}
-#work #myCarousel {
-    height: 100vh;
-    overflow: hidden;
-}
-
-#work #myCarousel img {
-    width: 100vw;
-}
-
-#bg-text {
-    background-color: rgba(134,	141, 117, 0.3); 
-}
+ #work #portfolio img:hover {
+     opacity: 0.2; filter: blur(5px);-webkit-filter: brightness(2.3) sepia(0.2);
+ }
+ 
+ #work #portfolio img {
+     transition: 1.0s;
+     transition-timing-function: ease-in
+ }
+ 
+ #work .frame-1 {
+     background-color: #f00d05;
+     padding: 30px;
+     position: relative;
+     margin: 15px;
+ }
+ 
+ #work .frame-2 {
+     background-color: #e6e1d6;
+     padding: 30px;
+     position: relative;
+     margin: 15px;
+ }
+ 
+ #work .frame-3 {
+     background-color: #8a543a;
+     padding: 30px;
+     position: relative;
+     margin: 15px;
+ }
+ 
+ #work #myCarousel {
+     height: 100vh;
+     overflow: hidden;
+ }
+ 
+ #work #myCarousel img {
+     width: 100vw;
+ }
+ 
+ #bg-text {
+     background-color: rgba(134, 141, 117, 0.3);
+ }
+ 
+ #work #portfolio {
+     padding-right: 15px;
+ }
+ 
+ #work #portfolio>div {
+     padding-right: 0px;
+ }
